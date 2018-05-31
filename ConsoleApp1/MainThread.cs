@@ -46,6 +46,8 @@ namespace ConsoleApp1
             foreach (var student in list)
             {
                 Console.WriteLine(student.Name);
+                Console.WriteLine(student.Email);
+                Console.WriteLine(student.Phone);
             }
         }
 
